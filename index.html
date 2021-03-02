@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+  <!--main-->
+  <main>
+
+    <!--section text-->
+    <section class="section__text">
+      <h1>Aprenda a codificar observando a otros</h1>
+      <p>Vea cómo los desarrolladores experimentados resuelven problemas en tiempo real. Ver tutoriales con guión es genial, pero comprender cómo piensan los desarrolladores es invaluable.</p>
+    </section>
+
+    <!--section form-->
+    <section class="section__form">
+      <div class="section__form-banner">
+        <span>Pruébelo gratis 7 días</span> luego $ 20 / mes. después de eso
+      </div>
+      
+      <form id="form" novalidate>
+        <div class="form__input">
+          <input type="name" name="name" id="first-name" aria-label="pon tu nombre" placeholder="Nombre" required>
+          <span class="icon-error"><img src="images/icon-error.svg" alt="icon error"></span>
+          <span class="msg-error">Mensaje de error</span>
+        </div>
+        
+        
+        <div class="form__input">
+          <input type="name" name="name" id="last-name" aria-label="pon tu apellido" placeholder="Apellido" required>
+          <span class="icon-error"><img src="images/icon-error.svg" alt="icon error"></span>
+          <span class="msg-error">Mensaje de error</span>
+        </div>
+             
+        <div class="form__input">
+          <input type="email" name="email" id="email" aria-label="pon tu email" placeholder="Correo electrónico" required>
+          <span class="icon-error"><img src="images/icon-error.svg" alt="icon error"></span>
+          <span class="msg-error">Mensaje de error</span>
+        </div>
+                  
+        <div class="form__input">
+          <input type="password" name="password" id="password" aria-label="pon tu contraseña" placeholder="Contraseña" required>
+          <span class="icon-error"><img src="images/icon-error.svg" alt="icon error"></span>
+          <span class="msg-error">Mensaje de error</span>
+        </div>                
+        
+        <button id="submit-button" type="submit">Solicita tu prueba gratuita</button>    
+        
+        <p>Al hacer clic en el botón, aceptas nuestros <a href="#">Términos y servicios</a></p>
+      </form>      
+    </section>  
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
